@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   
+        <title>Page Title</title>
+      <!-- <link rel="stylesheet" type="text/css" href="css/slider.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+   
+    <body>
+        <div id="underlay">
+              <div class="waves">
+                <div class="wave1"></div>
+                <div class="wave2"></div>
+                 <div class="wave3"></div>
+                <div class="wave4"></div>
+               
+        </div>
+   <!--      <div id="notification">
+                 <div id="snoozeDiv">
+ <div class="input-group mb-3" >
+
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">reminder interval</label>
+  </div  >
+  <select class="custom-select"  id="snoozeOptions">
+    <option selected value="10">10 mins</option>
+    <option value=" 15">15 min</option>
+    <option value="20">20 min</option>
+    <option value="30">30 min</option>
+   <option value="40">40 min</option>
+   <option value="60">60 min</option>
+  </select>
+  <br>
+</div>
+
+  <button onclick="setAlarm()" id="alarmButton" class="btn btn-success">set time</button>
+</div>
+ -->
+<!-- <label>sleep time</label>
+<input type="datetime-local" id="sleepTime"/>
+
+<label>wake time</label>
+
+<input type="datetime-local" id="wakeTime"/>
+ -->
+
+<!-- <div id="alarmOptions" style="display: none" > -->
+    <!-- <button onclick="snooze();" class="btn btn-primary">Snooze </button> -->
+     <!-- </div> -->
+<!-- 
+ <div id="snoozeDisplay"></div>
+
+    <button onclick="stopAlarm();" class="btn btn-danger">Stop Reminder</button>
+
+
+        </div>
+        </div> -->
+
+        <div id="container">
+      <!--   <div class="head">
+            <h1 align="center" vertical-align:center>
+                CORONAVIRUS
+                <br>
+                <button id="add-btn">set notification</button> 
+            </h1>
+ -->
+
+<!-- Slideshow container -->
+<div class="slideshow-container" id="slider">
+<p id="display"></p>
+</div>
+
+  <!-- Full-width images with number and caption text -->
+ <!--  <div class="mySlides fade" class="slides">
+    <div class="numbertext"></div>
+    <img src="images/caro1.jpg" class="slide-img">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/caro2.jpg" class="slide-img">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/caro3.jpg" class="slide-img">
+    <div class="text"></div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/caro4.jpg" class="slide-img">
+    <div class="text"></div>
+  </div>
+ -->
+  <!-- Next and previous buttons -->
+ <!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br> -->
+
+<!-- The dots/circles -->
+<!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div> -->
+
+
+<!--end of slider-->
+
+        <div class="subhead">
+            <h2 align="center" class="show"><span class="heading">
+                What is coronavirus and COVID-19?</span>
+            </h2>
+        </div>
+        
+        <div class="content">
+            
+            <p class="show" id="show1">
+                Cases of Covid-19 first emerged in late 2019, when a mysterious illness was reported in Wuhan, China. The cause of the disease was soon confirmed as a new kind of coronavirus, and the infection has since spread to many countries around the world and become a pandemic.
+                <button id="show11">read more</button>
+           </p>
+           <p class="hide" id="hide1">
+                On 11 February the World Health Organization announced that the official name would be covid-19, a shortened version of coronavirus disease 2019, refering to the specific virus that causes this disease as the covid-19 virus.
+        
+                Most commonly reported symptoms include tiredness, dry cough and fever. While in milder cases the infected person may just have slightly running nose and sore throat. Some carriers experience no noticable symptoms at all, but are still contagious and can spread the disease. In severe cases however, people with the virus can develop difficulty breathing, and may ultimately experience organ failure. Some cases are fatal.
+
+            <br>
+                The risk of death has been difficult to calculate, as it relies on accurate numbers of those who have symptoms but survive – and some countries, including the US, have been slow to increase capacity for testing. A small study of people who contracted covid-19 in Wuhan suggests that the risk of death increases with age, and is also higher for those who have diabetes, disease, blood clotting problems, or have shown signs of sepsis.
+
+Children, on the other hand, seem to be less likely to get severely ill and die from the new coronavirus, possibly due to less developed immune responses. Pregnant people don’t seem to be at greater risk of experiencing severe covid-19 than other adults, and it doesn’t seem to pass on to fetuses, but  further, larger studies are needed to confirm this.
+
+Young, healthy adults are still at risk of contracting  covid-19 and developing severe, life-threatening disease.
+
+            </p>
+            </div>
+        <div class="show" id="symptoms">
+            <h2 ><span class="heading" id="show2">What are the symptoms of coronavirus?</span></h2>
+        </div>
+        <div  id="hide2" class="hide">
+            <br/>
+            <p>
+                People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of coronavirus disease (COVID-19) are :
+            </p>
+            <ol>
+                <li>Cough</li>
+                <li>fever</li>
+                <li>tiredness</li>
+                <li>difficulty breathing(severe cases)</li>
+            </ol>
+
+                 <p align="center" class="more">
+            <b>For more on symptoms of covid-19</b></p>
+
+            <p align="center"><button class="click"><a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">CLICK HERE</a></button></p>
+           
+      
+
+        </div>
+        <div class="show">
+            <h2><span class="heading" id="show3">How can coronavirus be treated?</span></h2>
+        </div>
+        <div  id="hide3" class="hide">
+            <br/>
+            <p>
+                There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to help them breathe.
+            </p>
+            <p>
+                Self-care
+
+If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms if you:
+            </p>
+            <ul>
+                <li>rest and sleep</li>
+                <li>keep warm</li>
+                <li>drink plenty of liquids </li>
+                <li>use a room humidifier or take a hot shower to help ease a sore throat and cough
+</li>
+            </ul>
+            <p>
+                Medical treatments
+
+If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.
+            </p>
+
+                   <p align="center" class="more">
+            <b>For more on diagnosis and treatment of covid-19</b></p>
+
+            <p align="center"><button class="click"><a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/diagnosis-treatment/drc-20479976">CLICK HERE</a></button></p>
+           
+        </div>
+        <div class="show" id="show4">
+            <h2><span class="heading">How can coronavirus be prevented?</span></h2>
+        </div>
+        <div  id="hide4" class="hide">
+            <br />
+            <p><b>DO THE FIVE THINGS TO PREVENT CORONAVIRUS:</b></p>
+            <ol>
+                <li>HANDS:Wash them often</li>
+                <li>ELBOW:Cough into it</li>
+                <li>FACE:Don't touch it</li>
+                <li>SPACE:Keep safe distance</li>
+                <li>HOME:Stay if you can</li>
+            </ol>
+               <p align="center" class="more">
+            <b>For more on how to protect yourself and others from covid-19</b></p>
+
+            <p align="center"><button class="click"><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">CLICK HERE</a></button></p>
+           
+        </div>
+        <br/>
+        <div class="content">
+        <br/>
+        <p align="center" class="more">
+            <b>For frequently asked questions on covid-19 </b></p>
+
+            <p align="center"><button class="click"><a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">CLICK HERE</a></button>
+            </p>
+          
+          <p align="center" class="more">
+            <b>To take covid-19 self assessment test</b></p>
+
+            <p align="center"><button class="click"><a href="https://www.mayoclinic.org/covid-19-self-assessment-tool">CLICK HERE</a></button>
+            </p>
+          
+             <p align="center" class="more">
+            <b>For updates from NCDC (Nigeria)</b></p>
+
+            <p align="center"><button class="click"><a href="https://covid19.ncdc.gov.ng/">CLICK HERE</a></button></p>
+             
+
+               <p align="center" class="more">
+            <b>For state by state hotlines (Nigeria)</b></p>
+
+            <p align="center"><button class="click"><a href="https://covid19.ncdc.gov.ng/statecontacts.php">CLICK HERE</a></button></p>
+              
+
+                <p align="center" class="more">
+            <b>For daily incidence reports on covid-19 (worldometers)</b></p>
+
+            <p align="center"><button class="click"><a href="https://www.worldometers.info/coronavirus/">CLICK HERE</a></button></p>
+           
+
+                <p align="center" class="more">
+            <b>To know, and differentiate fact from myth</b></p>
+
+            <p align="center"><button class="click"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">CLICK HERE</a></button></p>
+           
+        </div>
+    </div>
+      
+       <script src="cordova.js"></script>
+       <!-- <script src="push.js"></script> -->
+       <script src="js/timer.js"></script>
+       <script src="js/slider.js"></script>
+        </body>
+</html>
